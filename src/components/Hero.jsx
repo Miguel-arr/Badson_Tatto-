@@ -12,17 +12,20 @@ const Hero = ({ setActiveTab }) => (
       <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/50 to-transparent"></div>
     </div>
     <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-      <p className="text-yellow-500 font-medium tracking-[0.2em] mb-4 animate-fade-in-up">EST. 2019</p>
+      <p className="text-red-700 font-medium tracking-[0.2em] mb-4 animate-fade-in-up">EST. 2019</p>
       <h1 className="text-5xl md:text-8xl font-black text-white mb-6 tracking-tighter uppercase">
-        Ink Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Soul</span>
+        BADSON
       </h1>
+      <h3 className="text-5xl md:text-8xl font-black text-white mb-6 tracking-tighter uppercase" >
+        Ink Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-700">Soul</span>
+      </h3>
       <p className="text-gray-400 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
         Especialista en Realismo y Blackwork. Transformando ideas en arte permanente en la piel.
       </p>
       <div className="flex flex-col md:flex-row gap-4 justify-center">
         <button 
           onClick={() => setActiveTab('citas')}
-          className="bg-yellow-500 text-black px-8 py-4 rounded-none font-bold hover:bg-yellow-400 transition-all flex items-center justify-center gap-2"
+          className="bg-red-700 text-black px-8 py-4 rounded-none font-bold hover:bg-red-700 transition-all flex items-center justify-center gap-2"
         >
           <Calendar size={20} /> AGENDAR CITA
         </button>

@@ -6,11 +6,11 @@ const Navbar = ({ activeTab, setActiveTab, mobileMenuOpen, setMobileMenuOpen }) 
 
   return (
     <nav className="fixed top-0 w-full bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg">
+        <div className="flex items-center justify-between h-20 bg">
           <div className="flex-shrink-0 cursor-pointer" onClick={() => setActiveTab('home')}>
             <h1 className="text-2xl font-bold tracking-tighter text-white">
-              BADSON<span className="text-yellow-500">.TATTOO</span>
+              BADSON<span className="text-red-700">.TATTOO</span>
             </h1>
           </div>
           
@@ -21,7 +21,7 @@ const Navbar = ({ activeTab, setActiveTab, mobileMenuOpen, setMobileMenuOpen }) 
                 <button
                   key={item}
                   onClick={() => setActiveTab(item.toLowerCase())}
-                  className={`${activeTab === item.toLowerCase() ? 'text-yellow-500' : 'text-gray-300 hover:text-white'} px-3 py-2 rounded-md text-sm font-medium transition-colors`}
+                  className={`${activeTab === item.toLowerCase() ? 'text-shadow-red-700' : 'text-gray-300 hover:text-white'} px-3 py-2 rounded-md text-sm font-medium transition-colors`}
                 >
                   {item}
                 </button>

@@ -72,7 +72,7 @@ const BookingForm = () => {
 
           <button 
             type="submit"
-            className="w-full bg-yellow-500 text-black font-bold py-4 hover:bg-yellow-400 transition-colors"
+            className="w-full bg-red-700 text-black font-bold py-4 hover:bg-red-700 transition-colors"
           >
             ENVIAR SOLICITUD
           </button>

@@ -53,7 +53,7 @@ const BookingForm = () => {
               <input 
                 type="text" 
                 placeholder="Ej: Antebrazo interno"
-                className="w-full bg-zinc-950 border border-zinc-800 rounded p-3 text-white focus:border-yellow-500 focus:outline-none transition-colors"
+                className="w-full bg-zinc-950 border border-zinc-800 rounded p-3 text-white focus:border-red-600 focus:outline-none transition-colors"
                 onChange={e => setFormData({...formData, placement: e.target.value})}
               />
             </div>
